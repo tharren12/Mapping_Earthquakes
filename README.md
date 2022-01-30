@@ -1,2 +1,2 @@
 # Mapping_Earthquakes
-Mapping Earthquakes Project
+Mapping Earthquakes with JavaScript and APIs.
