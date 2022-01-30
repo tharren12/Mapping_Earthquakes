@@ -56,9 +56,9 @@ d3.json(torontoHoods).then(function(data) {
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJSON(data, {
     style: myStyle,
-    onEachFeature: function(feature, layer) {
-      layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>");
-      }
+    // onEachFeature: function(feature, layer) {
+    //   layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>");
+    //   }
 })
 .addTo(map);
 });
